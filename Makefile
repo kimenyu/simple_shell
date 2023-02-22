@@ -13,7 +13,7 @@ run: $(TARGET)
 	@$(BINDIR)/$^
 
 $(TARGET): $(SRC) $(INCL) $(BINDIR)
-	$(CC) $< -o $(BINDIR)/$@
+	$(CC) $(SRC) -o $(BINDIR)/$@
 
 $(BINDIR):
 	mkdir $@
