@@ -1,8 +1,8 @@
 CC := gcc
 CFLAGS := -Wall -Werror -Wextra -pedantic -std=gnu89
 
-SRC := src/*.c
-INCL := src/*.h
+SRC := *.c
+INCL := *.h
 BINDIR := bin
 TARGET := seash
 
